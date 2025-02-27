@@ -1,0 +1,79 @@
+:root{
+    --darkWhite: rgb(240, 240, 240);
+    --Lime: hsl(61, 70%, 52%);
+    --Red: hsl(4, 69%, 50%);
+    --Slate100: hsl(202, 86%, 94%);
+    --Slate300: hsl(203, 41%, 72%);
+    --Slate500: hsl(200, 26%, 54%);
+    --Slate700: hsl(200, 24%, 40%);
+    --Slate900: hsl(202, 55%, 16%);
+    --navyblue: rgb(0,0,70); 
+    --tan: rgb(240, 220, 170);
+}
+
+.containerForAccountView{
+    background-color: var(--darkWhite);
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}
+
+.depositOrWithdrawl{
+background-color: var(--darkWhite);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.everythingInTheMiddle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.containerForAccountView>*{
+margin-top: 1rem;
+}
+
+
+
+
+.accountsHeader{
+
+}
+
+.bankAccountsContainer{
+    margin-top: 1rem;
+    border-radius: 1rem 1rem 0rem 0rem;
+    background-color: white;
+    width: 90%;
+    height: 30%;
+}
+
+.blueStripeTop{
+
+    background-color: var(--navyblue);
+    width: 100%;
+    height: 25%;
+    border-radius: 1rem 1rem 0rem 0rem;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.checksingsAndSavingsText{
+    font-size: larger;
+}
+
+.balance{
+    font-size: 50px;
+    text-align: right;
+}
+
+

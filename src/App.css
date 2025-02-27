@@ -1,38 +1,270 @@
-.App {
-  text-align: center;
+:root{
+  --White: hsl(0, 0%, 100%);
+  --Lime: hsl(61, 70%, 52%);
+  --Red: hsl(4, 69%, 50%);
+  --Slate100: hsl(202, 86%, 94%);
+  --Slate300: hsl(203, 41%, 72%);
+  --Slate500: hsl(200, 26%, 54%);
+  --Slate700: hsl(200, 24%, 40%);
+  --Slate900: hsl(202, 55%, 16%);
+  --navyblue: rgb(0,0,70); 
+  --tan: rgb(240, 220, 170);
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.containerForEverything{
+  background-color: white;
+  background: linear-gradient(to right, white, rgb(0,0,70));
+  width: 100%;
+  height:100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center; /* Vertically centers the content */
+  align-items: center;    /* Horizontally centers the content */
+}
+
+.firstChunkOfHomePage{
+
+
+  width: 100%;
+  height: 15vh;
+  background-color: rgb(211, 211, 211);
+  background-color: whitesmoke;
+  background: linear-gradient(to right, white, rgb(0,0,70));
+  
+ 
+}
+
+.frazierBankLogoTopLeft{
+display: flex;
+margin-left: 15%;
+align-items: center;
+flex-direction: row;
+}
+.frazierBankLogo{
+width: 125px;
+}
+
+.subheadingsOfFirstChunksContainer{
+  display: flex;
+}
+
+.slogan{
+  margin-left: 1rem;
+  font-size: 50px;
+  
+  }
+
+
+
+.secondChunkOfHomePage{
+  
+  background-color: rgb(0, 0, 70);
+  border-radius: 1rem;
+  border: 3px solid;
+  width: 90%;
+  height:45vh;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.secondChunkSubContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.backgroundImageSecondChunk{
+ 
+}
+
+.leftContainerOfSecondChunkOfHomePage{
+
+}
+
+.leftConatinerSubContainer{
+
+}
+
+.enjoy{
+color: white;
+padding-right: 2rem;
+font-size: 30px;
+}
+
+.dollarSignThreeHundred{
+padding-right: 2rem;
+font-size: 50px;
+color: white;
+}
+
+.middleContainerOfSecondChunkOfHomePage{
+
+}
+
+.middleContainerSubConatainer{
+display: block;
+
+}
+
+
+.newCheckingCustomers{
+padding-right: 20px;
+font-size: 25px;
+color: white;
+
+}
+
+.openAF{
   color: white;
+
 }
 
-.App-link {
-  color: #61dafb;
+.openAnAccount{
+margin-top: 1rem;
+height: 30px;
+border-radius: 1rem;
+background-color: var(--tan);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.rightContainerOfsecondChunkOfHomePage{
+display: block;
+}
+
+.rightContainerSubContainer{
+display: block;
+background-color: white;
+border: 2px solid;
+border-color: white;
+width: 250px;
+height: 250px;
+border-radius: .5rem;
+}
+
+.rightContainerSubContainer > *{
+margin-left: 5px;
+margin-right: 5px;
+}
+
+.welcome{
+padding-top: 20px;
+padding-bottom: 10px;
+font-size: 25px;
+font-weight: 500;
+}
+
+.username{
+padding-bottom: 10px;
+font-weight: 500;
+}
+
+.usernameTextArea{
+height: 20px;
+background-color: white;
+margin-bottom: 1rem;
+}
+
+.password{
+padding-bottom: 10px;
+font-weight: 500;
+
+}
+
+.passwordTextArea{
+height: 20px;
+background-color: whitesmoke;
+}
+.showPasswordButton{
+border-radius: 1rem;
+background-color: var(--Slate100);
+}
+
+.signInButton{
+border-radius: 1rem;
+border-color: black;
+background-color: var(--tan);
+}
+
+.thirdChunkOfHomePage{
+  background-color: whitesmoke;
+  background: linear-gradient(to right, white, rgb(0,0,70));
+  height:40vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.thirdChunkOfHomePageSubContainer{
+  margin-top: 1rem;
+  background-color: whitesmoke;
+  background: linear-gradient(to right, white, rgb(0,0,70));
+  border-radius: 1rem;
+  height:75%;
+  width: 100%;
+  display: block;
+}
+
+.howCanWeHelp{
+font-size: 30px;
+padding-top: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.howCanWeHelpOptionsContainer{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.howCanWeHelpOptionsContainer > *{
+margin: 30px;
+}
+
+.helpOptions{
+display: flex;
+flex-direction: column;
+justify-content: center; /* Vertically centers the content */
+align-items: center;    /* Horizontally centers the content */
+width: 180px;
+height: 180px;
+border-radius: 1rem;
+border: 2px solid;
+border-color: black;
+background-color: var(--tan);
+
+}
+
+.helpOptions > *{
+
+}
+
+.helpOptionsIcons{
+  width: 75px;
+  height: 75px;
+}
+
+
+
+.helpOptionMessages{
+
+font-weight: 100px;
+font-style: italic;
+padding-bottom: 1rem;
+padding-right: 5px;
+padding-left: 5px;
+text-align: center;   /* Ensure text wraps while still being centered vertically */
+white-space: normal;   /* Ensure text wraps */
+word-wrap: break-word; /* Break long words if necessary */
+overflow-wrap: break-word; /* Alternative for word breaking */
+}
+
+.fourthChunkOfHomePage{
+
 }

@@ -1,0 +1,78 @@
+:root{
+    --White: hsl(0, 0%, 100%);
+    --Lime: hsl(61, 70%, 52%);
+    --Red: hsl(4, 69%, 50%);
+    --Slate100: hsl(202, 86%, 94%);
+    --Slate300: hsl(203, 41%, 72%);
+    --Slate500: hsl(200, 26%, 54%);
+    --Slate700: hsl(200, 24%, 40%);
+    --Slate900: hsl(202, 55%, 16%);
+    --navyblue: rgb(0,0,70); 
+    --tan: rgb(240, 220, 170);
+    
+  }
+
+.formForCreatorScreen{
+    background-color: var(--Slate500);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.accountCreatorScreenContainer{
+    background-color: var(--navyblue);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.inputAreas{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+   
+    
+}
+
+.inputAreas> *{
+margin-bottom: 10px;
+
+}
+
+.inputYourInfoTitle{
+    color: white;
+}
+
+.formLabels{
+    color: white;
+}
+
+.submitButton{
+    margin-top: 1rem;
+    width: 50%;
+}
+
+.rightHalfOfCreatorScreen{
+background-color: var(--tan);
+width: 50%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+}
+
+.crestLineBankLogo{
+    width: 400px;
+}
+
+.crestLineTitle{
+font-size: 50px;
+color: white;
+
+}
